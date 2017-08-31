@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectActivity">
+
+    <EditText
+        android:id="@+id/name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ユーザー名"
+        android:inputType="textPersonName"
+        android:text="Android2" />
+
+    <EditText
+        android:id="@+id/IP_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="IPアドレス"
+        android:inputType="textPersonName"
+        android:text="172.16.12.85" />
+
+    <EditText
+        android:id="@+id/port_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ポート番号"
+        android:inputType="textPersonName"
+        android:text="8080" />
+
+    <EditText
+        android:id="@+id/edit_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="部屋番号"
+        android:inputType="textPersonName"
+        android:text="room1" />
+
+    <Button
+        android:id="@+id/button_connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onConnectClick"
+        android:text="接続" />
+</LinearLayout>
